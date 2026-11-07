@@ -1,4 +1,4 @@
-# Skills SA — Gerenciador de Habilidades
+# Skills SA - Gerenciador de Habilidades
 
 Projeto acadêmico desenvolvido em React para cadastrar e gerenciar habilidades.
 
