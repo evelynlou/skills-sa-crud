@@ -1,0 +1,112 @@
+.SecondInputs {
+    margin-top: 4%;
+    font-size: 14px;
+}
+
+.SecondInputs .unidades {
+    border-radius: 10px;
+    border: 2px solid #003DA5;
+    width: 213px;
+    position: relative;
+    margin-bottom: 10px;
+    right: -276px;
+    top: 7px;
+    font-size: 14px;
+    font-weight: lighter;
+    height: 48px;
+    padding-left: 5px;
+}
+
+.SecondInputs .unidades:hover {
+    border: 2px solid #003DA5;
+    font-size: 14px;
+}
+
+.SecondInputs .unidades::after {
+    border: 2px solid #003DA5;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+
+/* .SecondInputs .botao {
+    background-color: #003DA5;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    width: 300px;
+    position: relative;
+    right: -170px;
+    top: 13px;
+} */
+
+/* .SecondInputs .voltar {
+    background-color: #FF8200;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    width: 110px;
+    position: relative;
+    right: 248px;
+    top: 13px;
+} */
+
+.SecondInputs .credenciais {
+    height: 50px;
+    width: 420px;
+    top: -45px;
+    position: relative;
+    height: 45px;
+}
+
+.SecondInputs .senha,
+.password,
+.confirmar_senha {
+    border-radius: 10px;
+    border: 2px solid #003DA5;
+    color: black;
+    width: 203px;
+    height: 45px;
+    /* right: -52px; */
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.SecondInputs .confirmar_senha {
+    right: -275px;
+    top: -45px;
+    font-size: 14px;
+}
+
+.SecondInputs .confirmar_senha:hover {
+    border: 2px solid #003DA5;
+    font-size: 14px;
+}
+
+.SecondInputs .confirmar_senha::after {
+    border: 2px solid #003DA5;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+
+.SecondInputs .senha {
+    right: -52px;
+    top: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.SecondInputs .senha:hover {
+    border: 2px solid #003DA5;
+    font-size: 14px;
+}
+
+.SecondInputs .senha::after {
+    border: 2px solid #003DA5;
+    transform: translateX(-50%);
+    font-size: 14px;
+}

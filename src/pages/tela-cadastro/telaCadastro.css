@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+/*tela padrão 1366x768*/
+
+.TelaCadastro {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#003DA5, #0052E0, #1F71FF);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.TelaCadastro .containers {
+    display: flex;
+    width: 100%;
+}
+
+.TelaCadastro .left-container {
+    margin: 5% 0 0 0;
+    width: 50%;
+    height: 650px;
+}
+
+.TelaCadastro .right-container {
+    width: 50%;
+}
+
+/*----------------*/
+.TelaCadastro .left-container .quadrado-branco {
+    display: block;
+    position: relative;
+    width: 540px;
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 12.5%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.TelaCadastro .left-container .quadrado-branco h1 {
+    position: relative;
+    color: #003DA5;
+    font-size: 70px;
+    top: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+    /* width: 448px;
+    height: 62px;
+    position: relative;
+    right: -50px;
+    top: px; */
+}
+
+.TelaCadastro .left-container .quadrado-branco h2 {
+    position: relative;
+    width: 350px;
+    left: 100px;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    filter: drop-shadow(0 0px 0px black);
+    margin-bottom: -7px;
+}
+
+.TelaCadastro .left-container .quadrado-branco .btt-backFirstInputs {
+    background-color: #FF8200;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    width: 110px;
+    height: 50px;
+    margin: 0 0 0 2.5%;
+    margin-top: 45px;
+}
+
+.TelaCadastro .left-container .quadrado-branco .btt-createAccount {
+    background-color: #003DA5;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    padding: 10px 20px;
+    width: 320px;
+    height: 50px;
+    margin: 0 0 0 1%;
+    margin-top: 45px;
+}
+
+.TelaCadastro .left-container .quadrado-branco .p-login {
+    color: black;
+    top: -2px;
+    position: relative;
+    text-align: center;
+}
+
+.TelaCadastro .left-container .quadrado-branco .text {
+    filter: drop-shadow(0 0px 0px black);
+}
+
+/*------------------*/
+
+.TelaCadastro .div-bichinho {
+    height: 500px;
+}
+
+.TelaCadastro .div-bichinho .bichinho {
+    width: 730px;
+    height: 630px;
+    margin-left: -5%;
+}
+
+.TelaCadastro .div-text {
+    margin: 2% 0 0 0;
+    width: 95%;
+}
+
+.TelaCadastro .div-text h1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.TelaCadastro .div-text p {
+    filter: drop-shadow(0 0px 0px white);
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: lighter;
+    margin-right: 8%;
+    margin-bottom: 5%;
+}
+
+.TelaCadastro .strong-text {
+    color: orange;
+    font-weight: 400;
+}
+
+.TelaCadastro .div-text span {
+    color: #FF8200;
+}
+
+.TelaCadastro .button_submit {
+    margin: 15px 0 10px 40px;
+}
+
+.TelaCadastro .btt-toSecondInputs {
+    background-color: #003DA5;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    padding: 10px 20px;
+    width: 447px;
+    margin-top: -5px;
+}
+
+@media (min-width: 1500px) {
+
+    .TelaCadastro .left-container {
+        margin: 5% 0 0 10%;
+    }
+
+    .TelaCadastro .right-container .div-bichinho {
+        margin: -9% 0 0 30%;
+    }
+
+}

@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@300;400&display=swap");
+
+/* Modal.css */
+
+.modal-certificados,
+.modal-open-certificados {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  /* z-index: 200000; */
+}
+
+.modal-open-certificados {
+  display: block;
+}
+
+.modal-certificados,
+.modal-open-certificados .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.modal-certificados,
+.modal-open-certificados .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-certificados,
+.modal-open-certificados .close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-certificados,
+.modal-open-certificados input {
+  width: 466px;
+  height: 20px;
+  border-radius: 5px;
+  border-color: #696161;
+  margin-bottom: 13px;
+  border: 1px solid #999;
+}
+
+.modal-certificados,
+.modal-open-certificados .lados {
+  display: flex;
+  gap: 25px;
+  z-index: 1;
+}
+
+.modal-certificados,
+.modal-open-certificados .statusDeAndamento,
+.moadalidade {
+  flex-direction: column;
+  z-index: 10;
+}
+
+.modal-certificados,
+.modal-open-certificados .status_modalidade {
+  border-radius: 5px;
+  border-color: #696161;
+  margin-bottom: 13px;
+  border: 1px solid #999;
+  width: 220px;
+  height: 30px;
+}
+
+.modal-certificados,
+.modal-open-certificados .dataConclusao {
+  width: 222px;
+}
+
+.modal-certificados,
+.modal-open-certificados .instituicao {
+  border-radius: 5px;
+  border-color: #696161;
+  margin-bottom: 13px;
+  border: 1px solid #999;
+  width: 473px;
+  height: 30px;
+}
+
+.modal-certificados,
+.modal-open-certificados .azul {
+  background: #0052E0;
+  color: #fff;
+  width: 75px;
+  height: 25px;
+  left: 310px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.modal-certificados,
+.modal-open-certificados .lateral {
+  background: #0052E0;
+  color: #fff;
+  width: 74px;
+  height: 22px;
+  top: 416px;
+  left: 413px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  z-index: 3;
+}
+
+.modal-certificados,
+.modal-open-certificados .laranja {
+  background: #FF8200;
+  color: rgb(0, 0, 0);
+  width: 75px;
+  height: 25px;
+  left: 395px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+}
+
+.modal-certificados,
+.modal-open-certificados .linha {
+  position: relative;
+  left: 226px;
+  top: -39px;
+  width: 190px;
+  height: 20px;
+}
+
+.modal-certificados,
+.modal-open-certificados .titulo {
+  top: 8px;
+  height: 55px;
+  position: relative;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.modal-certificados,
+.modal-open-certificados .descricao {
+  width: 466px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.modal-certificados,
+.modal-open-certificados .modal-content {
+  width: 470px;
+  height: 439px;
+  top: -40px;
+  left: 7px;
+  border-radius: 10px;
+  border: 1px solid #FF8200;
+  position: relative;
+}
+
+/* dropdowns */
+.modal-certificados,
+.modal-open-certificados .escolha {
+  width: 190px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.modal-certificados,
+.modal-open-certificados .opcoes {
+  width: 190px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.modal-certificados,
+.modal-open-certificados .p {
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.modal-certificados,
+.modal-open-certificados .itensCargo {
+  position: relative;
+  top: 5px;
+}

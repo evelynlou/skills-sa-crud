@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@300;400&display=swap");
+
+.modal-open-project {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+    z-index: 200000;
+}
+
+.modal-open-project {
+    display: block;
+}
+
+.modal-open-project .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #FF8200;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* .modal-project .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-project .close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+.modal-open-project input {
+    width: 466px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: #696161;
+    margin-bottom: 13px;
+    border: 1px solid #999;
+}
+
+.modal-open-project .lados {
+    display: flex;
+    gap: 25px;
+    z-index: 1;
+}
+
+.modal-open-project .statusDeAndamento,
+.modalidade {
+    flex-direction: column;
+    z-index: 10;
+}
+
+.modal-open-project .status_modalidade {
+    border-radius: 5px;
+    border-color: #696161;
+    margin-bottom: 13px;
+    border: 1px solid #999;
+    width: 220px;
+    height: 30px;
+}
+
+.modal-open-project .azul {
+    background: #003da5;
+    color: #fff;
+    width: 86px;
+    height: 25px;
+    /* top: 90%;
+    left: 60%; */
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.modal-open-project .lateral {
+    background: #003da5;
+    color: #fff;
+    width: 74px;
+    height: 22px;
+    top: 80.2%;
+    left: 82.5%;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    z-index: 3;
+}
+
+.modal-open-project .laranja {
+    background: #ff8200;
+    color: #fff;
+    width: 86px;
+    height: 25px;
+    /* top: 90%;
+    left: 70%; */
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+}
+
+.modal-open-project .linha {
+    position: relative;
+    left: 226px;
+    top: -39px;
+    width: 190px;
+    height: 20px;
+}
+
+.modal-open-project .titulo {
+    top: 8px;
+    height: 55px;
+    position: relative;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.modal-open-project .descricao {
+    width: 466px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.modal-open-project .modal-content {
+    width: 468px;
+    height: 730px;
+    top: -40px;
+    left: 7px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* dropdowns */
+.modal-open-project .escolha {
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.modal-open-project .opcoes {
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.modal-open-project .p {
+    position: relative;
+    top: -1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.modal-open-project .itensCargo {
+    position: relative;
+    top: 5px;
+}
+
+.modal-open-project .CargosModal {
+    position: relative;
+}
+
+.modal-open-project .tituloLider {
+    font-size: 9px;
+    position: relative;
+    left: 14px;
+    top: 15px;
+}
+
+.modal-open-project .tituloEngSoft {
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+    left: 14px;
+}
+
+.modal-open-project .tituloEngenheiroSoft {
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+    left: 14px;
+}
+
+.modal-open-project .tituloEngenheirosoft {
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+    left: 14px;
+}
+
+.modal-open-project .tituloEngenheirosof {
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+    left: 14px;
+}
+
+.modal-open-project .tituloCargoSoftwa {
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+    left: 14px;
+}
+
+.modal-open-project .tituloDesenvolvedorLaranja {
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+    left: 14px;
+}
+
+.modal-open-project .lider {
+    position: relative;
+}
+
+.modal-open-project .engSoft {
+    position: relative;
+    top: -30px;
+    left: 149px;
+}
+
+.modal-open-project .engenheirosoft {
+    position: relative;
+    top: -29px;
+    left: 149px;
+}
+
+.modal-open-project .engenheirosof {
+    position: relative;
+    top: -89px;
+    left: 331px;
+}
+
+.modal-open-project .engenheirosoftwa {
+    position: relative;
+    top: -90px;
+    left: 331px;
+}
+
+.modal-open-project .desenvolvedorLaranja {
+    position: relative;
+    top: -119px;
+}

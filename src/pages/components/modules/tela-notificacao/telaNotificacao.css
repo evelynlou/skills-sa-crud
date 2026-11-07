@@ -1,0 +1,151 @@
+.notificacao {
+    margin: 0;
+    padding: 0;
+}
+
+.notificacao {
+    background-color: #7daec7;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.notificacao h2 {
+    position: absolute;
+    top: -25px;
+    z-index: 1;
+    background-color: #fff;
+    color: #000;
+    height: 34px;
+    width: 385px;
+    text-align: left;
+    padding: 18px 35px 0 10px;
+    border-radius: 10px;
+}
+.notificacao .notifi-box {
+    background-color: #fff;
+    width: 426px;
+    height: 409px;
+    position: fixed;
+    right: 10px;
+    top: 86px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #003DA5;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.notificacao .avatar, .project-img {
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+    margin-top: 8px;
+}
+
+.notificacao .project-img{
+    border-radius: .7rem;
+}
+
+.notificacao .icon-role {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 38px;
+    border-radius: 10px;
+    background-color: #70a5ff;
+}
+
+.notificacao .notifi-box p {
+    margin-top: 50px;
+}
+
+.notificacao .notifi-box th>p.p-notify, .notifi-box th>p.p-notify-short {
+    margin-top: 3.4rem;
+    margin-left: .5rem;
+    font-weight: normal;
+    text-align: start;
+}
+
+.notificacao .notifi-box th>p.p-notify-short{
+    margin-top: 3.9rem;
+
+}
+
+.notificacao .follow-btn {
+    margin-top: .3rem;
+    background-color: #ff9c33;
+    font-size: 10px;
+    width: 145px;
+    height: 19px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 1.25;
+    letter-spacing: .08em;
+    transition: background-color .6s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.notificacao .follow-btn:focus,.follow-btn:hover {
+    background: darken(#ff9c33, 7%);
+}
+
+.notificacao .follow-btn:hover {
+    color: #fff;
+    background-color: #0052E0;
+}
+
+.notificacao .follow-btn.active {
+    background-color: #70a5ff;
+}
+
+.notificacao .text-time {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.notificacao .follow-btn:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform-style: flat;
+    transform: translate3d(-50%, -50%, 0);
+    background: rgba(white, .1);
+    border-radius: 100%;
+    transition: width .3s ease, height .3s ease;
+}
+
+.notificacao .follow-btn:active:after {
+    content: "";
+    position: absolute;
+    background-color: #ff0000;
+    /* Cor de fundo do efeito */width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* Para tornar o elemento circular */left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    /* Coloca o elemento atrás do botão */}
+    .content-note {
+    display: flex;
+    margin-bottom: -9%;
+}
+
+.notificacao :is(.p-notify, .p-notify-short) > b {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+}

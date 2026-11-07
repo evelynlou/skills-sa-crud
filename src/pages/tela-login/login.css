@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+/*tela padrao 1366x768*/
+
+/*div principal*/
+.TelaLogin {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(0, 61, 165, 1) 0%, rgba(0, 82, 224, 1) 35%, rgba(0, 0, 0, 1) 100%);
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------------------------*/
+
+.TelaLogin .div-toGroup {
+  display: flex;
+  width: 100%;
+  margin-top: 8%;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+/*---------------------------------*/
+
+.TelaLogin .div-merchan {
+  position: relative;
+  z-index: 2;
+  width: 450px;
+  height: 500px;
+  left: 50px;
+  padding: 20px 50px;
+  border-radius: 20px;
+  background-color: #003DA5;
+  box-sizing: border-box;
+}
+
+.TelaLogin .p-merchan {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.TelaLogin .p1-merchan {
+  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: -4%;
+  font-size: 24px;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+/*img logo*/
+.TelaLogin .logoLogin {
+  height: 20px;
+  width: 20px;
+}
+
+/*img boneco*/
+.TelaLogin .boneco {
+  height: 270px;
+  width: 270px;
+  margin-top: -7%;
+}
+
+/*---------------------------------*/
+
+.TelaLogin .div-toGroup .div-login {
+  display: block;
+  z-index: 1;
+  width: 550px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.TelaLogin .div-login-top {
+  position: relative;
+}
+
+.TelaLogin .div-login-top h1 {
+  color: #003DA5;
+  font-size: 75px;
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+}
+
+.TelaLogin .div-inputs {
+  margin: 0 0 10px 40px;
+}
+
+/*<input>*/
+.TelaLogin .login-inputs {
+  background-color: #fafafa;
+  border-radius: 10px;
+  border-color: aliceblue;
+  border: 2px solid #003DA5;
+  width: 380px;
+  height: 45px;
+  margin-top: 7px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.TelaLogin .login-inputs::placeholder {
+  color: #aaabad;
+}
+
+.TelaLogin .p-conta,
+.p-senha {
+  color: black;
+}
+
+.TelaLogin .p-senha {
+  margin: 10px 0 20px -230px;
+  font-size: 13px;
+  filter: drop-shadow(0 0px 0px black);
+}
+
+.TelaLogin .p-conta {
+  margin-top: 20px;
+}
+
+.TelaLogin .p-conta span {
+  filter: drop-shadow(0 0px 0px black);
+  margin-left: 30px;
+}
+
+.TelaLogin .botao-submit {
+  background-color: #003DA5;
+  border-radius: 10px;
+  width: 390px;
+  height: 50px;
+  margin-left: 40px;
+  font-size: 18px;
+  color: #fafafa;
+  border: 2px;
+}
+
+.TelaLogin .a-login {
+  color: #FF8200;
+  font-weight: bold;
+}
+
+.TelaLogin .strong-login {
+  color: #FF8200;
+  font-size: larger;
+}
+
+/*---------------------------------------------*/
+
+@media (min-width: 1500px) {
+
+  .TelaLogin .div-toGroup {
+    margin-left: 23%;
+  }
+
+}
+
+/*tela celular (?) */
+@media screen and (max-width: 810px) {
+
+  .TelaLogin .div-toGroup {
+    display: flex;
+    width: 100%;
+    margin-top: 25%;
+    margin-left: 10%;
+    overflow: hidden;
+  }
+
+  /*---------------------------------*/
+
+  .TelaLogin .div-merchan {
+    display: none;
+  }
+
+  /*---------------------------------------------*/
+
+  .TelaLogin .div-login {
+    position: relative;
+    width: 80%;
+    height: 420px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    /* right: 40px; */
+  }
+
+  /*---------------------------------------------*/
+
+  .TelaLogin .div-login-top {
+    margin-top: 30px;
+  }
+
+  .TelaLogin .h1-skills-login {
+    color: #003DA5;
+    font-size: xx-large;
+  }
+
+  /*---------------------------------------------*/
+
+  .TelaLogin .div-inputs {
+    margin-top: 30px;
+  }
+
+  .TelaLogin .login-inputs {
+    width: 260px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    border-color: aliceblue;
+    border: 2px solid #003DA5;
+    font-size: medium;
+  }
+
+  /*---------------------------------------------*/
+
+  .TelaLogin .div-links {
+    margin-top: 40px;
+  }
+
+  .TelaLogin .p-conta,
+  .p-senha {
+    font-size: small;
+    margin-top: 20px;
+    color: black;
+  }
+
+  .TelaLogin .botao-submit {
+    background-color: #003DA5;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: #fafafa;
+    border: 2px;
+  }
+
+}

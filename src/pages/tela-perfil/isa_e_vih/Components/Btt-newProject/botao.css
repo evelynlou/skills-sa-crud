@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@300;400&display=swap");
+
+.botao-project {
+    padding: 1px 10px;
+    font-size: 16px;
+    background-color: #0052e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 120px;
+    /* z-index: 900; */
+    position: relative;
+    top: 47px;
+}
+
+.botao-project:hover {
+    background-color: #2980b9;
+}

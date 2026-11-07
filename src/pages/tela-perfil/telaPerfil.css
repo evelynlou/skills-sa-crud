@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+/* tela padrão 1366x768 */
+
+.TelaPerfil {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------*/
+
+.TelaPerfil .div-perfil-retanguloAzul {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to bottom, #013ea9, #014fd6, #1c6efc);
+}
+
+/*-----------------------*/
+
+/* <div> sobre informações da conta */
+.TelaPerfil .container-perfil-retanguloBranco {
+    display: flex;
+    position: absolute;
+    /* pra sobrepor à div retanguloLaranja */
+    z-index: 2;
+
+    width: 85%;
+    height: 270px;
+    margin-top: 8%;
+    margin-left: 8%;
+
+    border-radius: 50px;
+    background-color: white;
+    filter: drop-shadow(0 0px 2px #3a3a3a);
+}
+
+/* <div> para armazenar o conteudo da <div> principal */
+.TelaPerfil .container-perfil-infos {
+    display: flex;
+    position: relative;
+    top: 17%;
+    left: 2%;
+    width: 100%;
+    height: auto;
+}
+
+.TelaPerfil .div-infosLeft {
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.TelaPerfil .div-Atalhos {
+    font-weight: 100;
+    position: relative;
+    top: 23%;
+    left: 4%;
+    margin-left: 200%;
+}
+
+/* <img> */
+.TelaPerfil .iconPerfil {
+    border-radius: 100%;
+    width: 170px;
+    height: 166px;
+    filter: drop-shadow(0 7px 5px #3a3a3a);
+    background-color: #c9d3dc;
+}
+
+.TelaPerfil .infoHeader {
+    display: block;
+    margin-left: 20px;
+}
+
+.TelaPerfil .infoHeader span {
+    font-size: 15px;
+    color: black;
+    filter: drop-shadow(0 0px 0px black);
+}
+
+.TelaPerfil .infoHeader a {
+    font-size: 15px;
+    font-weight: 550;
+    position: absolute;
+    margin: 1% 0 0 1%;
+    color: #003da5;
+    text-decoration: none;
+}
+
+
+.TelaPerfil .infoHeader h1 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    filter: drop-shadow(0 0px 0px black);
+    letter-spacing: -1px;
+}
+
+/* <div> para armazenar infos gerais da conta */
+.TelaPerfil .accountInfos {
+    display: flex;
+    margin-top: 40px;
+    height: 60px;
+}
+
+/* <div> para organizar os itens 'seguindo' e 'seguidores' */
+.TelaPerfil .div-forInfos {
+    text-align: center;
+    width: 90px;
+    height: 70px;
+}
+
+/* <span> following */
+.TelaPerfil .infoFollowing {
+    color: #ff8200;
+    font-size: 25px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.TelaPerfil .spanFollowing,
+.spanFollowers {
+    font-size: 12px;
+    filter: drop-shadow(0 0px 0px black);
+}
+
+/* <hr> */
+.TelaPerfil .lineDivisor {
+    margin: 0 30px 0 30px;
+}
+
+/* <span> followers */
+.TelaPerfil .infoFollowers {
+    color: #003da5;
+    font-size: 25px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+/*---------------------*/
+
+.TelaPerfil .div-infosRight {
+    margin: 4% 0 0 5%;
+    width: 51%;
+}
+
+.TelaPerfil .div-infosRight ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+}
+
+/* <div> dentro de cada <li> que agrupa: div pro svg + span */
+.TelaPerfil .groupIcons {
+    display: flex;
+}
+
+.TelaPerfil .spanIcon {
+    margin: 13px 0 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.TelaPerfil .div-blueIcon {
+    background-color: #003da5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+    color: white;
+    font-size: 20px;
+    /* width pro svg (icon) */
+
+    border-radius: 30px;
+    border: 2px solid white;
+    filter: drop-shadow(0 3px 3px #3a3a3a);
+}
+
+.TelaPerfil .div-orangeIcon {
+    background-color: #ff8200;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+    color: white;
+    font-size: 20px;
+    /* width pro svg (icon) */
+
+    border-radius: 30px;
+    border: 2px solid white;
+    filter: drop-shadow(0 3px 3px #3a3a3a);
+}
+
+.TelaPerfil .icon {
+    padding: 9px 0 0 0;
+}
+
+.TelaPerfil .div-button {
+    position: absolute;
+    margin: -2% 0 0 87%;
+}
+
+.TelaPerfil .div-button .btt-editProfile {
+    border: 1px solid #696161;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: white;
+    padding: 4px;
+    width: 88px;
+    height: 23px;
+    filter: drop-shadow(0 3px 2px #aca7a7);
+}
+
+.TelaPerfil .div-button .btt-editProfile:hover {
+    background-color: #1c6efc;
+    transition: 0.3s ease-in-out;
+}
+
+/*-----------------------*/
+
+/* <div> Sobre Mim */
+.TelaPerfil .container-perfil-aboutMe-retanguloLaranja {
+    display: flex;
+    position: static;
+    z-index: 1;
+
+    width: 85%;
+    height: 240px;
+    margin: 22% 0 0 8%;
+
+    border-radius: 50px;
+    border-color: #c0c0c0;
+    filter: drop-shadow(0 6px 4px #c0c0c0);
+    border-width: 50px;
+    background-color: #ffa647;
+}
+
+/* conteúdo da <div> acima */
+.TelaPerfil .container-perfil-aboutMe-infos {
+    position: relative;
+    top: 45%;
+    left: 4%;
+    width: 93%;
+    height: 110px;
+    /* margin: 100px 70px 0 70px; */
+}
+
+.TelaPerfil .container-perfil-aboutMe-infos p {
+    font-size: 15px;
+    filter: drop-shadow(0 0px 0px black);
+    font-weight: 200;
+}
+
+.TelaPerfil .container-perfil-aboutMe-infos h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Estilos para resolução 1920x1080 */
+@media (min-width: 1700px) {
+
+    .TelaPerfil .container-perfil-infos {
+        top: 16%;
+        left: 4%;
+    }
+
+    .TelaPerfil .div-infosRight {
+        margin: 2% 0 0 10%;
+    }
+
+    .TelaPerfil .div-button {
+        position: absolute;
+        margin: -1% 0 0 87%;
+    }
+
+    .TelaPerfil .container-perfil-aboutMe-retanguloLaranja {
+        width: 85%;
+        height: 30vh;
+        margin: 17% 0 0 8%;
+    }
+}
