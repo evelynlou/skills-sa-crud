@@ -344,6 +344,7 @@ function GerenciarHabilidades() {
             <a
             href="https://github.com/evelynlou/"
             target="_blank"
+            rel="noopener noreferrer"
             >
             Meu GitHub
             </a>
